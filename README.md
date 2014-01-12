@@ -1,6 +1,6 @@
 dotfiles
 ========
-[Jesse Taviz&#243;n](http://github.com/tavizon) <iktome@adohi.net>
+[Jesse Taviz&#243;n](http://github.com/tavizon)\n<iktome@adohi.net>
 
 Description
 -----------
