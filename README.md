@@ -8,7 +8,7 @@ Installation
 $ cd ~
 $ git clone https://github.com/tavizon/dotfiles.git
 $ cd dotfiles
-$ ./makesymlinks.sh
+$ ./linkdotfiles
 ```
 
 Package Contents
