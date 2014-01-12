@@ -21,6 +21,7 @@ if ! [ -d "$backupDir" ]; then
    mkdir -p $backupDir
 fi
 
+echo
 # backup existing dotfiles and create symlinks
 for file in $dotFiles; do    
    if [ -f ~/.$file ] && ! [ -L ~/.$file ]; then
@@ -30,7 +31,9 @@ for file in $dotFiles; do
    if ! [ -f ~/.$file ]; then
       echo "Creating symlink to $file."
       ln -s $sourceDir/$file ~/.$file
+      echo
    fi
 done
+echo
 echo "Dotfile configuration complete."
 echo
