@@ -1,8 +1,9 @@
-dotfiles
-========
+[dotfiles](http://www.github.com/tavizon/dotfiles)
+==================================================
 Personal collection of Unix configuration files and a script for creating symbolic links with backup of existing dotfiles.
 
-###<http://www.github.com/tavizon/dotfiles>###
+Package Contents
+----------------
 * makesymlinks.sh - symlink creation script
 * vimrc - .vimrc source configuration file
 
