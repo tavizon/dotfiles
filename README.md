@@ -1,4 +1,6 @@
 dotfiles
 ===========
+Jesse Tavizon
+[Adohi Labs] (http://adohi.net)
+<iktome@adohi.net>
 
-personal environment configuration files
