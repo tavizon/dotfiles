@@ -34,6 +34,5 @@ for file in $dotFiles; do
       echo
    fi
 done
-echo
 echo "Dotfile configuration complete."
 echo
