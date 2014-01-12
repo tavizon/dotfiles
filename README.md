@@ -1,20 +1,10 @@
 dotfiles
 ========
-[Jesse Taviz&#243;n](http://github.com/tavizon)<br><iktome@adohi.net>
-
-Description
------------
 Personal collection of Unix configuration files and a script for creating symbolic links with backup of existing dotfiles.
 
-Contents
---------
+*Source Repository* @ <http://www.github.com/tavizon/dotfiles>
 * makesymlinks.sh - symlink creation script
 * vimrc - .vimrc source configuration file
-
-
-Package Information
--------------------
-Source Repository @ <http://www.github.com/tavizon/dotfiles>
 
 Installation
 ------------
@@ -24,3 +14,7 @@ $ git clone http://github.com/tavizon/dotfiles.git
 $ cd dotfiles
 $ ./makesymlinks.sh
 ```
+
+Author
+------
+[Jesse Taviz&#243;n](http://github.com/tavizon) \> <iktome@adohi.net>
