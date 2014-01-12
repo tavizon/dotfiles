@@ -8,14 +8,14 @@ Installation
 $ cd ~
 $ git clone https://github.com/tavizon/dotfiles.git
 $ cd dotfiles
-$ ./linkdotfiles
+$ ./linkdotfiles.sh
 ```
 
 Package Contents
 ----------------
 * [LICENSE][licenseURL] - package software license
 * [README.md][readmeURL] - package description and installation
-* [makesymlinks.sh][scriptURL] - symlink creation script
+* [linkdotfiles.sh][scriptURL] - symlink creation script
 * [vimrc][vimrcURL] - .vimrc source configuration file
 
 Author
@@ -25,5 +25,5 @@ Author
 [packageURL]: https://www.github.com/tavizon/dotfiles/
 [licenseURL]: https://github.com/tavizon/dotfiles/blob/master/LICENSE
 [readmeURL]: https://github.com/tavizon/dotfiles/blob/master/README.md
-[scriptURL]: https://www.github.com/tavizon/dotfiles/blob/master/makesymlinks.sh
+[scriptURL]: https://www.github.com/tavizon/dotfiles/blob/master/linkdotfiles.sh
 [vimrcURL]: https://www.github.com/tavizon/dotfiles/blob/master/vimrc
