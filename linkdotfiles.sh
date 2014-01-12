@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# makesymlinks.sh - Jesse Tavizon - iktome@adohi.net
+# linkdotfiles.sh - Jesse Tavizon - iktome@adohi.net
 #
 # symlinks for .[file|directory] in ~/ to matching git sources in ~/dotfiles
 #  - creates a backup directory for existing dotfiles
