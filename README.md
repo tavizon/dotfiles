@@ -1,6 +1,6 @@
 dotfiles
 ========
-Jesse Tavizon <iktome@adohi.net>
+[Jesse Taviz&#243;n](http://github.com/tavizon) <iktome@adohi.net>
 
 Description
 -----------
@@ -19,8 +19,8 @@ Source Repository @ <http://www.github.com/tavizon/dotfiles>
 Installation
 ------------
 ```bash
-cd ~
-git clone http://github.com/tavizon/dotfiles.git
-cd dotfiles
-./makesymlinks.sh
+$ cd ~
+$ git clone http://github.com/tavizon/dotfiles.git
+$ cd dotfiles
+$ ./makesymlinks.sh
 ```
