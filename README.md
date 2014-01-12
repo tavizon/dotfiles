@@ -1,4 +1,4 @@
-environment
+dotfiles
 ===========
 
 personal environment configuration files
