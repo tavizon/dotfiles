@@ -3,15 +3,15 @@
 # makesymlinks.sh - Jesse Tavizon - iktome@adohi.net
 #
 # symlinks for .[file|directory] in ~/ to matching git sources in ~/dotfiles
-#  - creates ~/dotfiles_old as a backup directory
-#  - creates backup of existing dotfile for each source dotfile
-#  - creates symbolic link for each source dotfile in ~/
+#  - creates a backup directory for existing dotfiles
+#  - moves existing dotfiles to the backup directory
+#  - creates a symbolic link in ~/ for each source dotfile
 
 echo
 
-sourceDir=~/dotfiles             # dotfiles repository directory
+sourceDir=~/dotfiles             # dotfiles source directory
 backupDir=~/dotfiles_backup      # existing dotfiles backup directory
-dotFiles="vimrc"                 # list of files/folders for symlinks
+dotFiles="vimrc"                 # list of source files/folders for symlinks
 
 echo "Changing to the $sourceDir directory."
 cd $sourceDir
