@@ -7,12 +7,11 @@
 #  - moves existing dotfiles to the backup directory
 #  - creates a symbolic link in ~/ for each source dotfile
 
-echo
-
 sourceDir=~/dotfiles             # dotfiles source directory
 backupDir=~/dotfiles_backup      # existing dotfiles backup directory
 dotFiles="vimrc"                 # list of source files/folders for symlinks
 
+echo
 echo "Changing to the $sourceDir directory."
 cd $sourceDir
 
@@ -33,5 +32,5 @@ for file in $dotFiles; do
       ln -s $sourceDir/$file ~/.$file
    fi
 done
-
+echo "Dotfile configuration complete."
 echo

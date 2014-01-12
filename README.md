@@ -1,6 +1,15 @@
-[dotfiles][packageURL]
+dotfiles
 ==================================================
 Personal collection of Unix configuration files and a script for creating symbolic links with backup of existing dotfiles.
+
+Installation
+------------
+```bash
+$ cd ~
+$ git clone https://github.com/tavizon/dotfiles.git
+$ cd dotfiles
+$ ./makesymlinks.sh
+```
 
 Package Contents
 ----------------
@@ -8,15 +17,6 @@ Package Contents
 * [README.md][readmeURL] - package description and installation
 * [makesymlinks.sh][scriptURL] - symlink creation script
 * [vimrc][vimrcURL] - .vimrc source configuration file
-
-Installation
-------------
-```bash
-$ cd ~
-$ git clone http://github.com/tavizon/dotfiles.git
-$ cd dotfiles
-$ ./makesymlinks.sh
-```
 
 Author
 ------
