@@ -7,25 +7,31 @@
 #  - creates backup of existing dotfile for each source dotfile
 #  - creates symbolic link for each source dotfile in ~/
 
-dir=~/dotfiles                   # dotfiles repository directory
-olddir=~/dotfiles_old            # original dotfiles backup directory
-files="vimrc"                    # list of files/folders for symlinks
+echo
 
-echo "Changing to the $dir directory"
-cd $dir
+sourceDir=~/dotfiles             # dotfiles repository directory
+backupDir=~/dotfiles_backup      # existing dotfiles backup directory
+dotFiles="vimrc"                 # list of files/folders for symlinks
 
-if ! [ -d "$olddir" ]; then
-   echo "Creating $olddir for backup of existing dotfiles"
-   mkdir -p $olddir
+echo "Changing to the $sourceDir directory."
+cd $sourceDir
+
+# create $backupDir if needed
+if ! [ -d "$backupDir" ]; then
+   echo "Creating $backupDir for existing dotfiles."
+   mkdir -p $backupDir
 fi
 
-for file in $files; do    
+# backup existing dotfiles and create symlinks
+for file in $dotFiles; do    
    if [ -f ~/.$file ] && ! [ -L ~/.$file ]; then
-      echo "Backing up existing .$file to $olddir"
-      mv ~/.$file $olddir 
+      echo "Backing up existing .$file to $backupDir."
+      mv ~/.$file $backupDir 
    fi
    if ! [ -f ~/.$file ]; then
-      echo "Creating symlink to $file"
-      ln -s $dir/$file ~/.$file
+      echo "Creating symlink to $file."
+      ln -s $sourceDir/$file ~/.$file
    fi
 done
+
+echo
