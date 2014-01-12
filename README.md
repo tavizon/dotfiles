@@ -1,8 +1,3 @@
 dotfiles
 ===========
-Jesse Tavizon
-
-[Adohi Labs] (http://adohi.net)
-
-<iktome@adohi.net>
-
+Jesse Tavizon <iktome@adohi.net>
