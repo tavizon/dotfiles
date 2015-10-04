@@ -23,10 +23,10 @@ fi
 
 echo
 # backup existing dotfiles and create symlinks
-for file in $dotFiles; do    
+for file in $dotFiles; do
    if [ -f ~/.$file ] && ! [ -L ~/.$file ]; then
       echo "Backing up existing .$file to $backupDir."
-      mv ~/.$file $backupDir 
+      mv ~/.$file $backupDir
    fi
    if ! [ -f ~/.$file ]; then
       echo "Creating symlink to $file."
